@@ -1,0 +1,13 @@
+.btn-white {
+  background-color: #fff;
+  border-radius: 5px;
+  color: #000;
+  font-weight: bold;
+  mix-blend-mode: screen;
+  padding: 10px 20px;
+  transition: .3s;
+}
+
+.btn-white:hover {
+  background-color: #aaa;
+}

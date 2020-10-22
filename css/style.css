@@ -1,0 +1,45 @@
+/* CSS Components */
+@import url('components/header.css');
+@import url('components/footer.css');
+@import url('components/button.css');
+@import url('components/card.css');
+@import url('components/list.css');
+
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:700');
+@import url('https://fonts.googleapis.com/css2?family=Proza+Libre:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+
+/* Utilities */
+body {
+  margin: 0;
+  font-family: Open Sans;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Major Mono Display';
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Custom design below! */
+
+.text-center {
+  text-align: center;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+section img {
+  width: 250px;
+  height: 150px;
+  object-fit: cover;
+}

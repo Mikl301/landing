@@ -1,0 +1,15 @@
+.centered-list {
+  width: 400px;
+  margin: 0 auto;
+  padding-left: 0;
+}
+
+.list-inline {
+  list-style: none;
+  display: inline;
+  margin: 0 20px;
+}
+
+.big-icons {
+  font-size: 3em;
+}
